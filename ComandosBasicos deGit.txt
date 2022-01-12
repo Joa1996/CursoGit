@@ -1,0 +1,39 @@
+git init: Se usa para iniciar un repositorio en una carpeta, siempre es recomendable que los archivos que vayamos a guardar en el repo, esten todos en la misma carpeta
+
+git add . : Se usa para confirmar que vamos a guardar todos los elementos de la carpeta en el repo
+
+git add . nombrearchivo: Esto es util en caso de que quisiramos tan solo almacenar en el repo solo un archivo especifico 
+
+git commit -m "Comentario o descripcion del commit a realizar" : se usa para confirmar el almacenamiento en el repositorio
+
+git log --oneline: se usa para saber el historial de todos nuestros commits
+
+git status -s : Se  usa para saber el status de todos nuestros archivos en el repo, si no muestra nada es porque ya fueron guardados todos en el repositorio (Comitiados)
+
+git reset --hard(Codigo de Commit): Se usa para volver a un commit en particular
+
+git branch: Se usa para conocer todas las ramas disponibles en el repositorio
+
+git branch (Nombre de la rama que deseamos crear): Se usa para crear nuevas ramas
+
+git checkout (Nombre de la rama a la que queremos pasar): Se usa para intercambiar de una rama a otra 
+
+git branch -d rama2 <- (nombre de la rama a borrar): Este comando se usa para borrar ramas
+
+git tag (Nombre del Tag) -m "Comentario": Se usa para crear un Tag 
+
+git push --tags: Se usa para confirmar el archivo final subido en Github, si accedemos a ese Tag podremos descargar un comprmido con todos los archivos
+
+
+-------PASOS PARA CLONAR UN REPO, MODIFICARLO Y LUEGO SUBIRLO DE NUEVO AL REPOSITORIO DE GITHUB---------------
+
+1)git clone (link del repo): Se usa para clonar un repo en GitHub en la maquina local y trabajar con esos archivos
+
+2) Una vez realizado el paso anterior lo que procedemos a realiazr es abrir una nueva consola en el repositorio local
+
+3) hacemos un git add .
+
+4) un Commit
+
+5) Finalmente usamos este comando
+   git push  (link del repo)
