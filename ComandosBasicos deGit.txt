@@ -37,3 +37,6 @@ git push --tags: Se usa para confirmar el archivo final subido en Github, si acc
 
 5) Finalmente usamos este comando
    git push  (link del repo)
+------------PASOS PARA MERGEAR UN REPO-----------------
+1) Pasar a la Rama Master con git checkout
+2) Desde la Rama Master hacer un git merge (nombre de la rama a la queremos mergear con la original)
