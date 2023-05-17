@@ -22,6 +22,8 @@ git branch -d rama2 <- (nombre de la rama a borrar): Este comando se usa para bo
 
 git tag (Nombre del Tag) -m "Comentario": Se usa para crear un Tag 
 
+git pull:Se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido ( Se usa una vez que hagamos usado el push y querramos actualizar el repo local)
+
 git push --tags: Se usa para confirmar el archivo final subido en Github, si accedemos a ese Tag podremos descargar un comprmido con todos los archivos
 
 
